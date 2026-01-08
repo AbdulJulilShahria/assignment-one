@@ -93,3 +93,19 @@
     margin-bottom: 32px;
     
 }
+.note {
+    text-align: center;
+}
+.note h2{
+    margin-top: 80px ;
+    font-weight: bold;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note p{
+    line-height: 20px;
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
