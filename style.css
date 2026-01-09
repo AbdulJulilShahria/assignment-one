@@ -239,3 +239,40 @@
     line-height: 20px;
     color: #627382;
 }
+.footer-upper-side{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.footer-parent{
+    max-width: 1600px;
+    height: 348px;
+  
+    margin: 120px 120px 0px 120px;
+}
+.footer-grandparent{
+  background-color: #001931;
+}
+.footer-parent .footer-upper-side{
+    padding-top: 120px;
+    padding-bottom: 84px;
+}
+.footer-parent .footer-upper-side .icon{
+    color: white;
+}
+.footer-parent .footer-upper-side .icon h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.footer-parent .footer-lower-side hr{
+    margin-bottom: 30px;
+}
+.footer-parent .footer-lower-side p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
