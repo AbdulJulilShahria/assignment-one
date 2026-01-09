@@ -91,21 +91,73 @@
     line-height: 24px;
     color: white;
     margin-bottom: 32px;
-    
+
 }
+
 .note {
     text-align: center;
+
 }
-.note h2{
-    margin-top: 80px ;
+
+.note h2 {
+    margin-top: 80px;
     font-weight: bold;
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
 }
-.note p{
+
+.note p {
     line-height: 20px;
     color: #627382;
     font-size: 16px;
     margin-bottom: 44px;
+}
+
+#card-parent .card .card-img img {
+    color: white;
+    background: rgba(249, 85, 85, 1);
+    padding: 14px;
+    border-radius: 50%;
+}
+
+#card-parent .card .card-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #001931;
+}
+
+#card-parent .card .card-para p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#card-parent .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    gap: 24px;
+}
+#card-parent{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1360px;
+    margin: auto;
+    margin-bottom: 72px;
+}
+#second-brain-parent{
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
 }
